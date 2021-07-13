@@ -14,7 +14,7 @@ def km_rodado():
 
 
 def calcular_custo(placa_do_carro, km_rodado):
-    calculo = float(km_rodado * 5.30)
+    calculo = float(km_rodado * 5.30 / 12)
     print('Aguarde o cálculo !!!')
     time.sleep(5)
     print('')
